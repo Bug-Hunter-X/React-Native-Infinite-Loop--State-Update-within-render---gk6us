@@ -1,0 +1,1 @@
+This error occurs when you are using a state variable within a component's render method, and that state variable is dependent on another state variable that is also updated within the render method. This creates an infinite loop, because every time the state is updated, the render method is called again, which updates the state again, and so on.
